@@ -86,6 +86,9 @@ Get-FileHash .\PubMedAI-Setup-v0.5.0.exe -Algorithm SHA256
 **如何卸载？**
 Windows 设置 → 应用 → PubMed AI → 卸载。用户数据仍保留在 `%APPDATA%\pubmed_ai`。
 
+**检查更新提示无法连接 GitHub？**
+如果本机使用 Clash/V2Ray 等代理但未开启系统代理，请在软件「设置 → 检索与网络」中选择自定义代理，填写本地代理地址（例如 `http://127.0.0.1:7897`），再检查更新。更新检查会复用该代理。
+
 ## 许可证
 
 软件本体采用 MIT License，见 [LICENSE](LICENSE)。第三方组件与数据说明见 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) 和 [docs/DATA_NOTICE.md](docs/DATA_NOTICE.md)。
