@@ -67,7 +67,7 @@ PubMed AI 是一款 Windows 桌面文献工具：PubMed 检索、中文翻译、
 下载后可在 PowerShell 中校验：
 
 ```powershell
-Get-FileHash .\PubMedAI-Setup-v0.5.0.exe -Algorithm SHA256
+Get-FileHash .\PubMedAI-Setup-v0.5.1.exe -Algorithm SHA256
 ```
 
 将结果与 Release 中的 `SHA256SUMS.txt` 对照。
