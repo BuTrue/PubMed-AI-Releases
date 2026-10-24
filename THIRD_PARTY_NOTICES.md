@@ -2,17 +2,29 @@
 
 PubMed AI 本体以 MIT License 发布。
 
-## Lucide Icons
+## 图标
 
-- 来源：https://github.com/lucide-icons/lucide
+- Lucide Icons（ISC）：https://github.com/lucide-icons/lucide
 - 使用方式：内联 SVG 路径数据
-- License：ISC
 
-## PySide6 / Qt
+## 图形界面
 
-- 来源：https://www.qt.io/qt-for-python
+- PySide6 / Qt（LGPL-3.0 或商业授权）：https://www.qt.io/qt-for-python
 - 使用方式：运行时动态链接
-- License：LGPL-3.0（或商业授权）
+
+## 中文分词与导出（GUI 可选依赖）
+
+| 组件 | 许可证 | 用途 |
+|---|---|---|
+| jieba | MIT | 中文关键词提取 |
+| openpyxl | MIT | Excel 导出/导入 |
+| python-docx | MIT | Word 导出 |
+| reportlab | BSD-3-Clause | PDF 导出 |
+| lxml | BSD-3-Clause | python-docx 的 XML 依赖 |
+| Pillow | HPND | reportlab 图像支持 |
+| charset-normalizer | MIT | 依赖链 |
+
+各组件版权归其作者所有；完整许可证文本可在对应项目的发布页/仓库中查看。
 
 ## 期刊指标数据
 
