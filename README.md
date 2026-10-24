@@ -67,7 +67,7 @@ PubMed AI 是一款 Windows 桌面文献工具：PubMed 检索、中文翻译、
 下载后可在 PowerShell 中校验：
 
 ```powershell
-Get-FileHash .\PubMedAI-Setup-v0.5.2.exe -Algorithm SHA256
+Get-FileHash .\PubMedAI-Setup-v0.5.3.exe -Algorithm SHA256
 ```
 
 将结果与 Release 中的 `SHA256SUMS.txt` 对照。
@@ -88,6 +88,10 @@ Windows 设置 → 应用 → PubMed AI → 卸载。用户数据仍保留在 `%
 
 **检查更新提示无法连接 GitHub？**
 如果本机使用 Clash/V2Ray 等代理但未开启系统代理，请在软件「设置 → 检索与网络」中选择自定义代理，填写本地代理地址（例如 `http://127.0.0.1:7897`），再检查更新。更新检查会复用该代理。
+
+## 联系我们
+
+问题反馈、功能建议或授权数据说明，请联系 **namecyq@foxmail.com**。
 
 ## 许可证
 
